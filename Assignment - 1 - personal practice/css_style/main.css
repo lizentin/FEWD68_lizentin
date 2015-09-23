@@ -1,0 +1,18 @@
+h1 
+{
+	text-align: center;
+}
+
+p
+{
+	color: blue;
+}
+
+footer
+{
+	text-align: center;
+	a:link {color:black;}
+	a:visited {color:black;}
+	a:hover {color:grey;}
+
+}
