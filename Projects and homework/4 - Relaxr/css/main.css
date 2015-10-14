@@ -1,0 +1,198 @@
+
+
+body {background:#f0efef;}
+
+#container
+{
+
+margin: 0 auto;
+width: 1000px;}
+
+h1 {color:white;
+  font-size: 35px;
+  position: relative;
+  left: 10px;
+  bottom: 2px;
+  padding-top: 30px;
+  padding-left: 30px;
+}
+
+h2
+{
+  color:#033048;
+
+  /*font weight and size not applying* question3*/
+  font-size: 40px;
+  font-weight: 700;
+
+}
+
+.unstyled-list li
+{
+  display: inline;
+  list-style-type: none;
+  color: #f9e42e;
+  margin: 0px 10px 10px 0px;
+  font-size:24px;
+  padding-bottom: 20px;
+  margin-bottom: 30px;
+  border-bottom: 60px;
+
+
+/*question2 - why is semibold staying white and not applying*/
+  font-weight:700;
+}
+
+.unstyled-list
+{
+  float: right;
+  position: relative;
+  top: -30px;
+  right: 20px;
+
+}
+
+.header
+{background:#033048;}
+
+#main
+{
+  
+  width:700px;
+}
+
+/*--question-1 font weight light is not working for para1 and 2*/
+.paragraph1
+{color: #606161;
+  font-size: 24px;
+  font-weight: 300;
+
+}
+
+.paragraph2
+{color: #606161;
+font-size: 24px;
+font-weight:300;}
+
+#read-more
+{font-size: 24px;
+ font-weight: 700;
+ text-align: right;
+ padding-top: 30px;
+}
+
+.side-header
+{
+  font-size: 32px;
+  /*font wieght not applying*/
+  font-weight: 800;
+
+}
+
+.list2
+{
+font-size: 24px;
+/*--question font weight not applying-*/
+font-weight: 300;
+padding-bottom: 40px;
+}
+
+
+
+
+/**
+clear fix I pasted in - add the .cf to html - parent
+ * For modern browsers
+ * 1. The space content is one way to avoid an Opera bug when the
+ *    contenteditable attribute is included anywhere else in the document.
+ *    Otherwise it causes space to appear at the top and bottom of elements
+ *    that are clearfixed.
+ * 2. The use of `table` rather than `block` is only necessary if using
+ *    `:before` to contain the top-margins of child elements.
+ */
+.cf:before,
+.cf:after {
+    content: " "; /* 1 */
+    display: table; /* 2 */
+}
+
+.cf:after {
+    clear: both;
+}
+
+/**
+ * For IE 6/7 only
+ * Include this rule to trigger hasLayout and contain floats.
+ */
+.cf {
+    *zoom: 1;
+}
+
+#right-column
+{
+  float: right;
+  display: inline-block;
+  width: 240px;
+  color: #033048;
+  position: relative;
+  bottom: 1060px;
+
+}
+.side-header
+
+.about-text
+{
+  font-size: 22px;
+  
+font-weight: 300;
+
+}
+
+.right-about-p
+{
+  padding-bottom: 40px;
+}
+
+.learn-more
+{
+font-size: 22px;
+font-weight: 800;
+
+}
+
+#bottom
+{
+  background:#f9e42e;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+.button
+{background:#033048;
+color:white;
+position: relative;
+left: 450px;
+
+}
+
+
+
+footer
+{background:#121212;
+color:#f9e42e;
+padding-top: 100px;
+padding-bottom: 100px;
+}
+
+.footer-content {
+  position:relative;
+  left: 457px;
+}
+
+.footer-content img:first-of-type {
+  margin-left: 10px;
+}
+.relaxr
+{
+
+  font-size: 30px;
+}

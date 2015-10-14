@@ -1,0 +1,64 @@
+h1 
+{
+	text-align: center;
+	color: #00ccff;
+}
+
+.italics
+{
+	font-style: italic;
+    text-align: center;
+    color: orange;
+}
+
+.underline
+{
+	text-decoration: underline;
+    text-align: center;
+    color: blue;
+}
+
+/*clear-fix hack*/
+.clearfix
+{
+  overflow: auto;
+}
+
+img
+{
+  float: right;
+}
+
+.centerit
+{
+   text-align: center;
+   color: #87CEFF;
+}
+
+
+.aboutjoe
+{
+	text-align: center;
+	color: #00FFCC;
+	
+}
+
+.webdev
+{
+	font-style: italics;
+}
+
+.italics
+{
+	font-style: italics;
+}
+
+footer
+{
+	text-align: center;
+
+}
+
+footer a:link {color:black;}
+/*	a:visited {color:black;}
+	a:hover {color:grey;}*/
