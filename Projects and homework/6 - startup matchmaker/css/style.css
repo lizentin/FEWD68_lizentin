@@ -1,0 +1,99 @@
+=[]`§* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+header
+{
+	background:#000;
+  padding-top: 10px;
+  padding-bottom:10px;
+
+}
+
+nav ul li
+{
+  list-style-type: none;
+  display: inline;
+  color: white;
+  margin-left: 20px;
+
+
+}
+
+ul
+{
+  margin-left: 400px; 
+
+}
+
+li:nth-child(1),li:nth-child(2)
+{
+  font-weight: bold;
+  font-size: 22px;
+}
+
+h1
+{
+	color: yellow;
+  font-size: 40px;
+  margin-left: 40px;
+  margin-bottom: 40px;
+  margin-top: 20px;
+}
+
+
+.h2-tag
+{
+  font-style: italic;
+  background-color: #E0E0E0;
+  padding-top: 50px;
+  padding-bottom: 50px;
+  border-top:10px solid yellow;
+
+}
+
+h2
+{
+margin-left: 300px;
+font-size: 30px;
+}
+.taste
+{
+  color: grey;
+  text-decoration: line-through;
+}
+
+.are
+{
+  border-bottom:5px solid yellow;
+  
+}
+
+/*https://css-tricks.com/text-blocks-over-image  and this is what elaine posted
+https://css-tricks.com/perfect-full-page-background-image/*/
+.image {
+  position: relative;
+  background: url("../images/coworking.jpg");
+  height: 500px;
+  /* to romve tiling*/
+  background-size: cover;
+}
+
+h {
+  position: absolute; 
+
+}
+
+.button
+{
+  background-color: yellow;
+  color: black;
+}
+
+h3
+{
+  background: white;
+}
+
